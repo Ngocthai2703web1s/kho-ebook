@@ -1,0 +1,59 @@
+.image-list-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.image-list-wrapper li {
+  width: calc(20% - 20px);
+  height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.image-list-wrapper li:hover {
+  transform: translateY(-5px);
+}
+
+.image-list-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Đảm bảo ảnh giữ nguyên tỉ lệ và vừa khung */
+}
+
+.download-button {
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  background: #f8f9fa;
+}
+
+.download-button .button {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-button .button:hover {
+  background-color: #0056b3;
+}
