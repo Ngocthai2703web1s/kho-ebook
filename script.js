@@ -1,20 +1,20 @@
 const ImageList = (function() {
   const images = [
-    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-nui" },
-    { date: "01-02-2025", name: "Ảnh Biển", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-bien" },
-    { date: "02-02-2025", name: "Ảnh Rừng", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-rung" },
-    { date: "05-02-2025", name: "Ảnh Hồ", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-ho" },
-    { date: "04-02-2025", name: "Ảnh Đồi", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-doi" },
-	{ date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-nui" },
-    { date: "01-02-2025", name: "Ảnh Biển", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-bien" },
-    { date: "02-02-2025", name: "Ảnh Rừng", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-rung" },
-    { date: "05-02-2025", name: "Ảnh Hồ", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-ho" },
-    { date: "04-02-2025", name: "Ảnh Đồi", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-doi" },
-	{ date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-nui" },
-    { date: "01-02-2025", name: "Ảnh Biển", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-bien" },
-    { date: "02-02-2025", name: "Ảnh Rừng", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-rung" },
-    { date: "05-02-2025", name: "Ảnh Hồ", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-ho" },
-    { date: "04-02-2025", name: "Ảnh Đồi", imageUrl: "https://via.placeholder.com/426x275", linkUrl: "https://example.com/anh-doi" }
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+	{ date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+	{ date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" },
+    { date: "03-02-2025", name: "Ảnh Núi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ba-vo-khai-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1%20V%C3%B5%20-%20Khai%20Hoang.epub" }
   ];
 
   function displayImages(imageArray) {
