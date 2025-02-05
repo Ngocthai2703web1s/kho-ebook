@@ -82,4 +82,3 @@ const ImageList = (function() {
   sortListByName();
 })();
 
-{ date: "05-02-2025", name: "#", imageUrl: "#", linkUrl: "#" }
