@@ -1,3 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Thanh tìm kiếm */
+.search-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-container input {
+  width: 50%;
+  max-width: 400px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #007BFF;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-container input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Danh sách ảnh */
 .image-list-wrapper ul {
   list-style: none;
   padding: 0;
@@ -10,7 +40,7 @@
 
 .image-list-wrapper li {
   width: calc(20% - 20px);
-  height: 350px; /* Tăng chiều cao để có đủ không gian cho nút */
+  height: 350px; /* Chiều cao đủ cho ảnh và nút */
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -18,7 +48,7 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Tạo khoảng trống giữa ảnh và nút */
+  justify-content: space-between; /* Tạo khoảng cách giữa ảnh và nút */
   align-items: center;
   padding: 10px;
   transition: transform 0.3s;
@@ -30,7 +60,7 @@
 
 .image-list-wrapper img {
   max-width: 100%;
-  max-height: 80%; /* Giới hạn chiều cao của ảnh ở mức 80% thẻ li */
+  max-height: 80%; /* Giới hạn chiều cao ảnh chiếm tối đa 80% của thẻ li */
   object-fit: contain;
   margin-bottom: 10px;
 }
@@ -53,6 +83,13 @@
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s;
+}
+
+/* Quy tắc cho nút "Đang cập nhật" */
+.button.disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .download-button .button:hover {
