@@ -69,7 +69,31 @@ const ImageList = (function() {
 	{ date: "01-02-2025", name: "Tôi Muốn Đi Sờ Cá Ở Cục Yêu Quái - Giang Nguyệt Niên Niên", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/toi-muon-di-so-ca-o-cuc-yeu-quai-giang-nguyet-nien-nien.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/T%C3%B4i%20Mu%E1%BB%91n%20%C4%90i%20S%E1%BB%9D%20C%C3%A1%20%E1%BB%9E%20C%E1%BB%A5c%20Y%C3%AAu%20Qu%C3%A1i%20-%20Giang%20Nguy%E1%BB%87t%20Ni%C3%AAn%20Ni%C3%AAn.epub" },
 	{ date: "01-02-2025", name: "Tu Chân Nói Chuyện Phiếm Quần - Thánh Kỵ Sĩ Truyền Thuyết", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/07/tu-chan-lieu-thien-quan-thanh-ky-si-truyen-thuyet.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Tu%20Ch%C3%A2n%20Li%C3%AAu%20Thi%C3%AAn%20Qu%E1%BA%A7n%20-%20Th%C3%A1nh%20K%E1%BB%B5%20S%C4%A9%20Truy%E1%BB%81n%20Thuy%E1%BA%BFt.epub" },
 	{ date: "01-02-2025", name: "Tuyệt Phẩm Thiên Y - Diệp Thiên Nam", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/tuyet-pham-thien-y-diep-thien-nam.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Tuy%E1%BB%87t%20Ph%E1%BA%A9m%20Thi%C3%AAn%20Y%20-%20Di%E1%BB%87p%20Thi%C3%AAn%20Nam.epub" },
-	{ date: "01-02-2025", name: "Võng Du Sống Cùng Mỹ Nữ - Long Quy", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/vong-du-song-cung-my-nu-long-quy.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/V%C3%B5ng%20Du%20S%E1%BB%91ng%20C%C3%B9ng%20M%E1%BB%B9%20N%E1%BB%AF%20-%20Long%20Quy.epub" }	
+	{ date: "01-02-2025", name: "Võng Du Sống Cùng Mỹ Nữ - Long Quy", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/vong-du-song-cung-my-nu-long-quy.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/V%C3%B5ng%20Du%20S%E1%BB%91ng%20C%C3%B9ng%20M%E1%BB%B9%20N%E1%BB%AF%20-%20Long%20Quy.epub" },
+	{ date: "01-02-2025", name: "Nhà Máy Chế Tạo Siêu Nhiên - Karel Capek", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Nha-May-Che-Tao-Sieu-Nhien.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Những Cái Bóng Sống - Cornelia Funke", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/06/Nhung-Cai-Bong-Song.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Pinball 1973 - Haruki Murakami", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/07/Pinball-1973.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Thiếu Chủ Bí Mật - Phi Điểu Bất Tuyệt", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/07/thieu-chu-bi-mat-phi-dieu-bat-tuyet.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Xuyên Nhanh Nữ Phụ Bình Tĩnh Một Chút - Đỗ Liễu Liễu", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/07/xuyen-nhanh_-nu-phoi-binh-tinh-mot-chut-do-lieu-lieu.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Silo Tháp Giống 3 - Cát Bụi - Hugh Howey", imageUrl: "https://ebookvie.com/wp-content/uploads/2025/02/Cat-Bui-Silo-Thap-Giong-3.webp", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Nơi Khu Rừng Chạm Tới Những Vì Sao - Glendy Vanderah", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Noi-Khu-Rung-Cham-Toi-Nhung-Vi-Sao.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Mắt Đá - Otsuichi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Mat-Da-Otsuichi.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "28 - Jeong You Jeong", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/28-Jeong-You-Jeong.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Dữ Liệu Bạch Kim - Higashino Keigo", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Du-Lieu-Bach-Kim.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Phản Diện Siêu Cấp - Cao Lạnh", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/phan-dien-sieu-cap.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Quan Tài Đầu Đông - Tôn Thấm Văn", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Quan-Tai-Dau-Dong.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Bách Hóa Giấc Mơ Của Ngài Dollargut - Lee Miye", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Bach-Hoa-Giac-Mo-Cua-Ngai-Dollargut.png", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Những Thành Phố Vô Hình - Italo Calvino", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Nhung-Thanh-Pho-Vo-Hinh.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Vô Địch Thật Tịch Mịch - Tân Phong", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/vo-dich-that-tich-mich.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Wechat Của Ta Kết Nối Thông Tam Giới - Lang Yên", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/wechat-cua-ta-ket-noi-thong-tam-gioi.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Thiên Cơ Điện - Duyên Phận 0", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/thien-co-dien.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Thần Sủng Tiến Hóa - Tửu Trì Túy", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/than-sung-tien-hoa.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Siêu Phẩm Vu Sư - Cửu Đăng Hiền Lành", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/sieu-pham-vu-su.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Bóng Tối Trỗi Dậy - Susan Cooper", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/bong-toi-troi-day.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Vô Địch Sư Thúc Tổ - Cửu Thứ Tuyệt", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/vo-dich-su-thuc-to.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Thần Thoại Bắc Âu - Neil Gaiman", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/than-thoai-bac-au.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Vạn Đạo Long Hoàng - Mục Đồng Thính Trúc", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/van-dao-long-hoang.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Đường Tam Trọng Sinh - Đường Gia Tam Thiếu", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/duong-tam-trong-sinh-duong-gia-tam-thieu.jpg", linkUrl: "#" }
   ];
 
   // Hiển thị danh sách ảnh dưới dạng thẻ li
