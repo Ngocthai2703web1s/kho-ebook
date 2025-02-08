@@ -93,7 +93,23 @@ const ImageList = (function() {
 	{ date: "01-02-2025", name: "Vô Địch Sư Thúc Tổ - Cửu Thứ Tuyệt", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/vo-dich-su-thuc-to.jpg", linkUrl: "#" },
 	{ date: "01-02-2025", name: "Thần Thoại Bắc Âu - Neil Gaiman", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/than-thoai-bac-au.jpg", linkUrl: "#" },
 	{ date: "01-02-2025", name: "Vạn Đạo Long Hoàng - Mục Đồng Thính Trúc", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/van-dao-long-hoang.jpg", linkUrl: "#" },
-	{ date: "01-02-2025", name: "Đường Tam Trọng Sinh - Đường Gia Tam Thiếu", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/duong-tam-trong-sinh-duong-gia-tam-thieu.jpg", linkUrl: "#" }
+	{ date: "01-02-2025", name: "Đường Tam Trọng Sinh - Đường Gia Tam Thiếu", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/duong-tam-trong-sinh-duong-gia-tam-thieu.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Siêu Cấp Phù Không Thành - Chư Sinh Phù Đồ", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/sieu-cap-phu-khong-thanh-5bc5d-chu-sinh-phu-do.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Thần Huyết Chiến Sĩ - Ngân Sương Kỵ Sĩ", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/than-huyet-chien-si-5bc5d-ngan-suong-ky-si.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Thái Cổ Long Đế Quyết - Tiết Chi Thiên", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/thai-co-long-de-quyet-5bc5d-tiet-chi-thien.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Thế Phù Thần - Đông Phương Hành Vân", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/tuyet-the-phu-than-5bc5d-dong-phuong-hanh-van.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Thiên Thần Quyết - Thái Nhất Sinh Thủy", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/thien-than-quyet.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Màn Đêm - Richelle Mead", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/man-dem-richelle-mead.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "World of Warcraft Tập 2 Chronicle - Chris Metzen", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/world-of-warcraft-chronicle-quyen-2-chris-metzen-matt-burns-robert-brooks.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Ngã Đích Nữ Vu Muội Muội Môn - Cùng Tứ", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/nga-dich-nu-vu-muoi-muoi-mon-5bc5d-cung-tu.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Nhất Đao Phách Khai Sinh Tử Lộ - Dạ Dữ Tuyết", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/nhat-dao-phach-khai-sinh-tu-lo-5bc5d-da-du-tuyet.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Trầm Nguyệt Chi Thược - Thủy Tuyền", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/tram-nguyet-chi-thuoc-thuy-tuyen.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Tối Cường Cơ Nhân - -90º", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/toi-cuong-co-nhan-5bc5d-90o.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Chàng Rể Mạnh Nhất Lịch Sử - Cao Điểm Trầm Mặc", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/chang-re-manh-nhat-lich-su.png", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Vô Địch Kiếm Vực - Thanh Loan Phong Thượng", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/vo-dich-kiem-vuc.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "World of Warcraft Tập 1 Chronicle - Chris Metzen", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/world-of-warcraft-chronicle-quyen-1-chris-metzen-matt-burns-robert-brooks.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "World of Warcraft Tập 6 Arthas Thi Vương Trỗi Dậy - Christie Golden", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/arthas_-thi-vuong-troi-day-christie-golden.jpg", linkUrl: "#" },
+	{ date: "01-02-2025", name: "Hệ Thống Xuyên Nhanh: Boss Phản Diện Đột Kích - Mặc Linh", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/he-thong-xuyen-nhanh_-boss-phan-dien-dot-kich-mac-linh.jpg", linkUrl: "#" }
   ];
 
   // Hiển thị danh sách ảnh dưới dạng thẻ li
