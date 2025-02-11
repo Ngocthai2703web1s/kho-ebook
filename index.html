@@ -11,16 +11,22 @@
     var link4m_advert = 2;
     var link4m_domains = ['archive.org', 'uploading.com', 'uploadable.ch'];
   </script>
-  <script src='https://link4m.com/js/full-script.js'></script>
-
+  <script src="https://link4m.com/js/full-script.js"></script>
 </head>
 <body>
+  <!-- Thanh tìm kiếm -->
   <div class="search-container">
     <input type="text" id="searchInput" placeholder="Tìm kiếm theo tên hoặc tác giả...">
   </div>
+  
+  <!-- Container chứa các button lọc theo thể loại (genes) -->
+  <div class="genes-container"></div>
+  
+  <!-- Danh sách sách -->
   <div class="image-list-wrapper">
     <ul id="imageList"></ul>
   </div>
+  
   <script src="script.js"></script>
 </body>
 </html>
