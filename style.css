@@ -1,8 +1,10 @@
+/* Cấu hình chung cho trang */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   padding: 20px;
   text-align: center;
+  margin: 0;
 }
 
 /* Thanh tìm kiếm */
@@ -27,7 +29,36 @@ body {
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-/* Danh sách ảnh */
+/* Container chứa các button lọc theo thể loại (genes) */
+.genes-container {
+  border: 0px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.genes-container button {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.genes-container button:hover {
+  background-color: #0056b3;
+}
+
+.genes-container button.active {
+  background-color: #0056b3;
+}
+
+/* Danh sách sách */
 .image-list-wrapper ul {
   list-style: none;
   padding: 0;
