@@ -58,32 +58,32 @@ const ImageList = (function() {
 	{ genes: "Viễn Tưởng, Tiểu Thuyết", name: "Ta Mô Phỏng Con Đường Trường Sinh Trong Nhóm Chat - Nộn Lăng Như Mộng", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ta-mo-phong-con-duong-truong-sinh-trong-nhom-chat-non-lang-nhu-mong.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Ta%20M%C3%B4%20Ph%E1%BB%8Fng%20Con%20%C4%90%C6%B0%E1%BB%9Dng%20Tr%C6%B0%E1%BB%9Dng%20Sinh%20Trong%20Nh%C3%B3m%20Chat%20-%20N%E1%BB%99n%20L%C4%83ng%20Nh%C6%B0%20M%E1%BB%99ng.epub" },
 	{ genes: "Viễn Tưởng, Phiêu Lưu", name: "Ta Sửa Đổi Vô Hạn Độc Đoán Vạn Cổ - Khán Bản Thư Đích Nhân Đô Suất", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ta-sua-doi-vo-han-doc-doan-van-co-khan-ban-thu-dich-nhan-do-suat.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Ta%20S%E1%BB%ADa%20%C4%90%E1%BB%95i%20V%C3%B4%20H%E1%BA%A1n%20%C4%90%E1%BB%99c%20%C4%90o%C3%A1n%20V%E1%BA%A1n%20C%E1%BB%95%20-%20Kh%C3%A1n%20B%E1%BA%A3n%20Th%C6%B0%20%C4%90%C3%ADch%20Nh%C3%A2n%20%C4%90%C3%B4%20Su%E1%BA%A5t.epub" },
 	{ genes: "Viễn Tưởng", name: "Ta Tại Tận Thế Nhặt Bảo Rương - Tử Vong Chàng Kích", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ta-tai-tan-the-nhat-bao-ruong-tu-vong-chang-kich.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Ta%20T%E1%BA%A1i%20T%E1%BA%ADn%20Th%E1%BA%BF%20Nh%E1%BA%B7t%20B%E1%BA%A3o%20R%C6%B0%C6%A1ng%20-%20T%E1%BB%AD%20Vong%20Ch%C3%A0ng%20K%C3%ADch.epub" },
-	{ genes: "Viễn Tưởng", name: "Ta Thật Không Muốn Trọng Sinh A - Liễu Ngạn Hoa Hựu Minh", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ta-that-khong-muon-trong-sinh-a-lieu-ngan-hoa-huu-minh.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Ta%20Th%E1%BA%ADt%20Kh%C3%B4ng%20Mu%E1%BB%91n%20Tr%E1%BB%8Dng%20Sinh%20A%20-%20Li%E1%BB%85u%20Ng%E1%BA%A1n%20Hoa%20H%E1%BB%B1u%20Minh.epub" },
+	{ genes: "Viễn Tưởng, Xuyên Không", name: "Ta Thật Không Muốn Trọng Sinh A - Liễu Ngạn Hoa Hựu Minh", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ta-that-khong-muon-trong-sinh-a-lieu-ngan-hoa-huu-minh.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Ta%20Th%E1%BA%ADt%20Kh%C3%B4ng%20Mu%E1%BB%91n%20Tr%E1%BB%8Dng%20Sinh%20A%20-%20Li%E1%BB%85u%20Ng%E1%BA%A1n%20Hoa%20H%E1%BB%B1u%20Minh.epub" },
 	{ genes: "Viễn Tưởng", name: "Ta Trở Thành Truyền Thuyết Ở Hồng Kông - Phượng Trào Hoàng", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ta-tro-thanh-truyen-thuyet-o-hong-kong-phuong-trao-hoang.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Ta%20Tr%E1%BB%9F%20Th%C3%A0nh%20Truy%E1%BB%81n%20Thuy%E1%BA%BFt%20%E1%BB%9E%20H%E1%BB%93ng%20K%C3%B4ng%20-%20Ph%C6%B0%E1%BB%A3ng%20Tr%C3%A0o%20Ho%C3%A0ng.epub" },
 	{ genes: "Viễn Tưởng", name: "Ta Vô Địch Từ Phá Của Bắt Đầu - Chiến Thiên Ngân", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/ta-vo-dich-tu-pha-cua-bat-dau-chien-thien-ngan.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Ta%20V%C3%B4%20%C4%90%E1%BB%8Bch%20T%E1%BB%AB%20Ph%C3%A1%20C%E1%BB%A7a%20B%E1%BA%AFt%20%C4%90%E1%BA%A7u%20-%20Chi%E1%BA%BFn%20Thi%C3%AAn%20Ng%C3%A2n.epub" },
 	{ genes: "Viễn Tưởng", name: "Thần Cấp Đại Điếm Trưởng - Ly Thiên Võng Lượng", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/than-cap-dai-diem-truong-ly-thien-vong-luong.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Th%E1%BA%A7n%20C%E1%BA%A5p%20%C4%90%E1%BA%A1i%20%C4%90i%E1%BA%BFm%20Tr%C6%B0%E1%BB%9Fng%20-%20Ly%20Thi%C3%AAn%20V%C3%B5ng%20L%C6%B0%E1%BB%A3ng.epub" },
-	{ genes: "Viễn Tưởng", name: "Thế Giới Chúng Thần (Thế Giới Của Các Vị Thần) - Vĩnh Hằng Chi Hỏa", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/the-gioi-chung-than-the-gioi-cua-cac-vi-than-vinh-hang-chi-hoa.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Th%E1%BA%BF%20Gi%E1%BB%9Bi%20Ch%C3%BAng%20Th%E1%BA%A7n%20%28Th%E1%BA%BF%20Gi%E1%BB%9Bi%20C%E1%BB%A7a%20C%C3%A1c%20V%E1%BB%8B%20Th%E1%BA%A7n%29%20-%20V%C4%A9nh%20H%E1%BA%B1ng%20Chi%20H%E1%BB%8Fa.epub" },
-	{ genes: "Viễn Tưởng", name: "Thiên Tài Tiên Đạo - Bông Lan", imageUrl: "https://ebookvie.com/wp-content/uploads/2025/01/thien-tai-tien-dao-bong-lan.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Thi%C3%AAn%20T%C3%A0i%20Ti%C3%AAn%20%C4%90%E1%BA%A1o%20-%20B%C3%B4ng%20Lan.epub" },
-	{ genes: "Viễn Tưởng", name: "Thuật Sĩ - Thanh Kiếm Định Mệnh - Andrzej Sapkowski", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/thuat-si-thanh-kiem-dinh-menh-andrzej-sapkowski-thanh-nguyen-dich.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Thu%E1%BA%ADt%20S%C4%A9%20-%20Thanh%20Ki%E1%BA%BFm%20%C4%90%E1%BB%8Bnh%20M%E1%BB%87nh%20-%20Andrzej%20Sapkowski.epub" },
-	{ genes: "Viễn Tưởng", name: "Toàn Dân Võng Du - Bắt Đầu Vô Hạn Điểm Kỹ Năng - Trần Thần Tinh", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/toan-dan-vong-du-bat-dau-vo-han-diem-ky-nang-tran-than-tinh.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/To%C3%A0n%20D%C3%A2n%20V%C3%B5ng%20Du%20-%20B%E1%BA%AFt%20%C4%90%E1%BA%A7u%20V%C3%B4%20H%E1%BA%A1n%20%C4%90i%E1%BB%83m%20K%E1%BB%B9%20N%C4%83ng%20-%20Tr%E1%BA%A7n%20Th%E1%BA%A7n%20Tinh.epub" },
-	{ genes: "Viễn Tưởng", name: "Tôi Muốn Đi Sờ Cá Ở Cục Yêu Quái - Giang Nguyệt Niên Niên", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/toi-muon-di-so-ca-o-cuc-yeu-quai-giang-nguyet-nien-nien.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/T%C3%B4i%20Mu%E1%BB%91n%20%C4%90i%20S%E1%BB%9D%20C%C3%A1%20%E1%BB%9E%20C%E1%BB%A5c%20Y%C3%AAu%20Qu%C3%A1i%20-%20Giang%20Nguy%E1%BB%87t%20Ni%C3%AAn%20Ni%C3%AAn.epub" },
+	{ genes: "Viễn Tưởng, Tiểu Thuyết", name: "Thế Giới Chúng Thần (Thế Giới Của Các Vị Thần) - Vĩnh Hằng Chi Hỏa", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/the-gioi-chung-than-the-gioi-cua-cac-vi-than-vinh-hang-chi-hoa.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Th%E1%BA%BF%20Gi%E1%BB%9Bi%20Ch%C3%BAng%20Th%E1%BA%A7n%20%28Th%E1%BA%BF%20Gi%E1%BB%9Bi%20C%E1%BB%A7a%20C%C3%A1c%20V%E1%BB%8B%20Th%E1%BA%A7n%29%20-%20V%C4%A9nh%20H%E1%BA%B1ng%20Chi%20H%E1%BB%8Fa.epub" },
+	{ genes: "Viễn Tưởng, Tiểu Thuyết, Kiếm Hiệp", name: "Thiên Tài Tiên Đạo - Bông Lan", imageUrl: "https://ebookvie.com/wp-content/uploads/2025/01/thien-tai-tien-dao-bong-lan.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Thi%C3%AAn%20T%C3%A0i%20Ti%C3%AAn%20%C4%90%E1%BA%A1o%20-%20B%C3%B4ng%20Lan.epub" },
+	{ genes: "Viễn Tưởng, Tiểu Thuyết", name: "Thuật Sĩ - Thanh Kiếm Định Mệnh - Andrzej Sapkowski", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/thuat-si-thanh-kiem-dinh-menh-andrzej-sapkowski-thanh-nguyen-dich.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Thu%E1%BA%ADt%20S%C4%A9%20-%20Thanh%20Ki%E1%BA%BFm%20%C4%90%E1%BB%8Bnh%20M%E1%BB%87nh%20-%20Andrzej%20Sapkowski.epub" },
+	{ genes: "Viễn Tưởng, Võng Du", name: "Toàn Dân Võng Du - Bắt Đầu Vô Hạn Điểm Kỹ Năng - Trần Thần Tinh", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/toan-dan-vong-du-bat-dau-vo-han-diem-ky-nang-tran-than-tinh.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/To%C3%A0n%20D%C3%A2n%20V%C3%B5ng%20Du%20-%20B%E1%BA%AFt%20%C4%90%E1%BA%A7u%20V%C3%B4%20H%E1%BA%A1n%20%C4%90i%E1%BB%83m%20K%E1%BB%B9%20N%C4%83ng%20-%20Tr%E1%BA%A7n%20Th%E1%BA%A7n%20Tinh.epub" },
+	{ genes: "Viễn Tưởng, Hài Hước", name: "Tôi Muốn Đi Sờ Cá Ở Cục Yêu Quái - Giang Nguyệt Niên Niên", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/toi-muon-di-so-ca-o-cuc-yeu-quai-giang-nguyet-nien-nien.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/T%C3%B4i%20Mu%E1%BB%91n%20%C4%90i%20S%E1%BB%9D%20C%C3%A1%20%E1%BB%9E%20C%E1%BB%A5c%20Y%C3%AAu%20Qu%C3%A1i%20-%20Giang%20Nguy%E1%BB%87t%20Ni%C3%AAn%20Ni%C3%AAn.epub" },
 	{ genes: "Viễn Tưởng", name: "Tu Chân Nói Chuyện Phiếm Quần - Thánh Kỵ Sĩ Truyền Thuyết", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/07/tu-chan-lieu-thien-quan-thanh-ky-si-truyen-thuyet.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Tu%20Ch%C3%A2n%20Li%C3%AAu%20Thi%C3%AAn%20Qu%E1%BA%A7n%20-%20Th%C3%A1nh%20K%E1%BB%B5%20S%C4%A9%20Truy%E1%BB%81n%20Thuy%E1%BA%BFt.epub" },
-	{ genes: "Viễn Tưởng", name: "Tuyệt Phẩm Thiên Y - Diệp Thiên Nam", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/tuyet-pham-thien-y-diep-thien-nam.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Tuy%E1%BB%87t%20Ph%E1%BA%A9m%20Thi%C3%AAn%20Y%20-%20Di%E1%BB%87p%20Thi%C3%AAn%20Nam.epub" },
-	{ genes: "Viễn Tưởng", name: "Võng Du Sống Cùng Mỹ Nữ - Long Quy", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/vong-du-song-cung-my-nu-long-quy.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/V%C3%B5ng%20Du%20S%E1%BB%91ng%20C%C3%B9ng%20M%E1%BB%B9%20N%E1%BB%AF%20-%20Long%20Quy.epub" },
-	{ genes: "Viễn Tưởng", name: "Nhà Máy Chế Tạo Siêu Nhiên - Karel Capek", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Nha-May-Che-Tao-Sieu-Nhien.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Nh%C3%A0%20M%C3%A1y%20Ch%E1%BA%BF%20T%E1%BA%A1o%20Si%C3%AAu%20Nhi%C3%AAn%20-%20Karel%20Capek.epub" },
+	{ genes: "Viễn Tưởng, Tiểu Thuyết", name: "Tuyệt Phẩm Thiên Y - Diệp Thiên Nam", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/tuyet-pham-thien-y-diep-thien-nam.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Tuy%E1%BB%87t%20Ph%E1%BA%A9m%20Thi%C3%AAn%20Y%20-%20Di%E1%BB%87p%20Thi%C3%AAn%20Nam.epub" },
+	{ genes: "Viễn Tưởng, Võng Du", name: "Võng Du Sống Cùng Mỹ Nữ - Long Quy", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/12/vong-du-song-cung-my-nu-long-quy.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/V%C3%B5ng%20Du%20S%E1%BB%91ng%20C%C3%B9ng%20M%E1%BB%B9%20N%E1%BB%AF%20-%20Long%20Quy.epub" },
+	{ genes: "Viễn Tưởng, Tiểu Thuyết", name: "Nhà Máy Chế Tạo Siêu Nhiên - Karel Capek", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Nha-May-Che-Tao-Sieu-Nhien.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Nh%C3%A0%20M%C3%A1y%20Ch%E1%BA%BF%20T%E1%BA%A1o%20Si%C3%AAu%20Nhi%C3%AAn%20-%20Karel%20Capek.epub" },
 	{ genes: "Viễn Tưởng", name: "Những Cái Bóng Sống - Cornelia Funke", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/06/Nhung-Cai-Bong-Song.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Nh%E1%BB%AFng%20C%C3%A1i%20B%C3%B3ng%20S%E1%BB%91ng%20-%20Cornelia%20Funke.epub" },
 	{ genes: "Viễn Tưởng", name: "Pinball 1973 - Haruki Murakami", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/07/Pinball-1973.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Pinball%201973%20-%20Haruki%20Murakami.epub" },
 	{ genes: "Viễn Tưởng", name: "Thiếu Chủ Bí Mật - Phi Điểu Bất Tuyệt", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/07/thieu-chu-bi-mat-phi-dieu-bat-tuyet.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Thi%E1%BA%BFu%20Ch%E1%BB%A7%20B%C3%AD%20M%E1%BA%ADt%20-%20Phi%20%C4%90i%E1%BB%83u%20B%E1%BA%A5t%20Tuy%E1%BB%87t.epub" },
-	{ genes: "Viễn Tưởng", name: "Xuyên Nhanh Nữ Phụ Bình Tĩnh Một Chút - Đỗ Liễu Liễu", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/07/xuyen-nhanh_-nu-phoi-binh-tinh-mot-chut-do-lieu-lieu.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Xuy%C3%AAn%20Nhanh%20N%E1%BB%AF%20Ph%E1%BB%A5%20B%C3%ACnh%20T%C4%A9nh%20M%E1%BB%99t%20Ch%C3%BAt%20-%20%C4%90%E1%BB%97%20Li%E1%BB%85u%20Li%E1%BB%85u.epub" },
+	{ genes: "Viễn Tưởng, Xuyên Không", name: "Xuyên Nhanh Nữ Phụ Bình Tĩnh Một Chút - Đỗ Liễu Liễu", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/07/xuyen-nhanh_-nu-phoi-binh-tinh-mot-chut-do-lieu-lieu.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Xuy%C3%AAn%20Nhanh%20N%E1%BB%AF%20Ph%E1%BB%A5%20B%C3%ACnh%20T%C4%A9nh%20M%E1%BB%99t%20Ch%C3%BAt%20-%20%C4%90%E1%BB%97%20Li%E1%BB%85u%20Li%E1%BB%85u.epub" },
 	{ genes: "Viễn Tưởng", name: "Silo Tháp Giống 3 - Cát Bụi - Hugh Howey", imageUrl: "https://ebookvie.com/wp-content/uploads/2025/02/Cat-Bui-Silo-Thap-Giong-3.webp", linkUrl: "https://archive.org/download/ebook-vien-tuong/Silo%20Th%C3%A1p%20Gi%E1%BB%91ng%203%20-%20C%C3%A1t%20B%E1%BB%A5i%20-%20Hugh%20Howey.pdf" },
-	{ genes: "Viễn Tưởng", name: "Nơi Khu Rừng Chạm Tới Những Vì Sao - Glendy Vanderah", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Noi-Khu-Rung-Cham-Toi-Nhung-Vi-Sao.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/N%C6%A1i%20Khu%20R%E1%BB%ABng%20Ch%E1%BA%A1m%20T%E1%BB%9Bi%20Nh%E1%BB%AFng%20V%C3%AC%20Sao%20-%20Glendy%20Vanderah.epub" },
-	{ genes: "Viễn Tưởng", name: "Mắt Đá - Otsuichi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Mat-Da-Otsuichi.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/M%E1%BA%AFt%20%C4%90%C3%A1%20-%20Otsuichi.epub" },
+	{ genes: "Viễn Tưởng, Tiểu Thuyết", name: "Nơi Khu Rừng Chạm Tới Những Vì Sao - Glendy Vanderah", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Noi-Khu-Rung-Cham-Toi-Nhung-Vi-Sao.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/N%C6%A1i%20Khu%20R%E1%BB%ABng%20Ch%E1%BA%A1m%20T%E1%BB%9Bi%20Nh%E1%BB%AFng%20V%C3%AC%20Sao%20-%20Glendy%20Vanderah.epub" },
+	{ genes: "Viễn Tưởng, Truyện Ngắn", name: "Mắt Đá - Otsuichi", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Mat-Da-Otsuichi.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/M%E1%BA%AFt%20%C4%90%C3%A1%20-%20Otsuichi.epub" },
 	{ genes: "Viễn Tưởng, Tiểu Thuyết", name: "28 - Jeong You Jeong", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/28-Jeong-You-Jeong.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/28%20-%20Jeong%20You-Jeong.epub" },
-	{ genes: "Viễn Tưởng", name: "Dữ Liệu Bạch Kim - Higashino Keigo", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Du-Lieu-Bach-Kim.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/D%E1%BB%AF%20Li%E1%BB%87u%20B%E1%BA%A1ch%20Kim%20-%20Higashino%20Keigo.epub" },
+	{ genes: "Viễn Tưởng, Trinh Thám", name: "Dữ Liệu Bạch Kim - Higashino Keigo", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Du-Lieu-Bach-Kim.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/D%E1%BB%AF%20Li%E1%BB%87u%20B%E1%BA%A1ch%20Kim%20-%20Higashino%20Keigo.epub" },
 	{ genes: "Viễn Tưởng", name: "Phản Diện Siêu Cấp - Cao Lạnh", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/phan-dien-sieu-cap.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Pha%CC%89n%20Die%CC%A3%CC%82n%20Sie%CC%82u%20Ca%CC%82%CC%81p%20-%20Cao%20La%CC%A3nh.epub" },
-	{ genes: "Viễn Tưởng", name: "Quan Tài Đầu Đông - Tôn Thấm Văn", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Quan-Tai-Dau-Dong.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Quan%20T%C3%A0i%20%C4%90%E1%BA%A7u%20%C4%90%C3%B4ng%20-%20T%C3%B4n%20Th%E1%BA%A5m%20V%C4%83n.epub" },
+	{ genes: "Viễn Tưởng, Trinh Thám", name: "Quan Tài Đầu Đông - Tôn Thấm Văn", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Quan-Tai-Dau-Dong.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Quan%20T%C3%A0i%20%C4%90%E1%BA%A7u%20%C4%90%C3%B4ng%20-%20T%C3%B4n%20Th%E1%BA%A5m%20V%C4%83n.epub" },
 	{ genes: "Viễn Tưởng", name: "Bách Hóa Giấc Mơ Của Ngài Dollargut - Lee Miye", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Bach-Hoa-Giac-Mo-Cua-Ngai-Dollargut.png", linkUrl: "https://archive.org/download/ebook-vien-tuong/B%C3%A1ch%20H%C3%B3a%20Gi%E1%BA%A5c%20M%C6%A1%20C%E1%BB%A7a%20Ng%C3%A0i%20Dollargut%20-%20Lee%20Miye.epub" },
-	{ genes: "Viễn Tưởng", name: "Những Thành Phố Vô Hình - Italo Calvino", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Nhung-Thanh-Pho-Vo-Hinh.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Nh%E1%BB%AFng%20Th%C3%A0nh%20Ph%E1%BB%91%20V%C3%B4%20H%C3%ACnh%20-%20Italo%20Calvino.epub" },
+	{ genes: "Viễn Tưởng, Phiêu Lưu", name: "Những Thành Phố Vô Hình - Italo Calvino", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/04/Nhung-Thanh-Pho-Vo-Hinh.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Nh%E1%BB%AFng%20Th%C3%A0nh%20Ph%E1%BB%91%20V%C3%B4%20H%C3%ACnh%20-%20Italo%20Calvino.epub" },
 	{ genes: "Viễn Tưởng", name: "Vô Địch Thật Tịch Mịch - Tân Phong", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/vo-dich-that-tich-mich.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Vo%CC%82%20%C4%90i%CC%A3ch%20Tha%CC%A3%CC%82t%20Ti%CC%A3ch%20Mi%CC%A3ch%20-%20Ta%CC%82n%20Phong.epub" },
 	{ genes: "Viễn Tưởng", name: "Wechat Của Ta Kết Nối Thông Tam Giới - Lang Yên", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/wechat-cua-ta-ket-noi-thong-tam-gioi.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Wechat%20Cu%CC%89a%20Ta%20Ke%CC%82%CC%81t%20No%CC%82%CC%81i%20Tho%CC%82ng%20Tam%20Gio%CC%9B%CC%81i%20-%20Lang%20Ye%CC%82n.epub" },
 	{ genes: "Viễn Tưởng", name: "Thiên Cơ Điện - Duyên Phận 0", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/thien-co-dien.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Thi%C3%AAn%20C%C6%A1%20%C4%90i%E1%BB%87n%20-%20Duy%C3%AAn%20Ph%E1%BA%ADn%200.epub" },
@@ -108,11 +108,21 @@ const ImageList = (function() {
 	{ genes: "Viễn Tưởng", name: "Vô Địch Kiếm Vực - Thanh Loan Phong Thượng", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/vo-dich-kiem-vuc.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Vo%CC%82%20%C4%90i%CC%A3ch%20Kie%CC%82%CC%81m%20Vu%CC%9B%CC%A3c%20-%20Thanh%20Loan%20Phong%20Thu%CC%9Bo%CC%9B%CC%A3ng.epub" },
 	{ genes: "Viễn Tưởng", name: "World of Warcraft Tập 1 Chronicle - Chris Metzen", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/world-of-warcraft-chronicle-quyen-1-chris-metzen-matt-burns-robert-brooks.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/World%20of%20Warcraft%20T%E1%BA%ADp%201%20Chronicle%20-%20Chris%20Metzen.epub" },
 	{ genes: "Viễn Tưởng", name: "World of Warcraft Tập 6 Arthas Thi Vương Trỗi Dậy - Christie Golden", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/arthas_-thi-vuong-troi-day-christie-golden.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/World%20of%20Warcraft%20T%E1%BA%ADp%206%20Arthas%20Thi%20V%C6%B0%C6%A1ng%20Tr%E1%BB%97i%20D%E1%BA%ADy%20-%20Christie%20Golden.epub" },
-	{ genes: "Viễn Tưởng", name: "Hệ Thống Xuyên Nhanh: Boss Phản Diện Đột Kích - Mặc Linh", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/he-thong-xuyen-nhanh_-boss-phan-dien-dot-kich-mac-linh.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/H%E1%BB%87%20Th%E1%BB%91ng%20Xuy%C3%AAn%20Nhanh%20Boss%20Ph%E1%BA%A3n%20Di%E1%BB%87n%20%C4%90%E1%BB%99t%20K%C3%ADch%20-%20M%E1%BA%B7c%20Linh.epub" }
-	
+	{ genes: "Viễn Tưởng", name: "Hệ Thống Xuyên Nhanh: Boss Phản Diện Đột Kích - Mặc Linh", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/he-thong-xuyen-nhanh_-boss-phan-dien-dot-kich-mac-linh.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/H%E1%BB%87%20Th%E1%BB%91ng%20Xuy%C3%AAn%20Nhanh%20Boss%20Ph%E1%BA%A3n%20Di%E1%BB%87n%20%C4%90%E1%BB%99t%20K%C3%ADch%20-%20M%E1%BA%B7c%20Linh.epub" },
+	{ genes: "Viễn Tưởng", name: "Thư Viện Linh Hồn – Ransom Riggs", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/36131827411_3def6f98d7_o.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Th%C6%B0%20Vi%E1%BB%87n%20Linh%20H%E1%BB%93n%20%E2%80%93%20Ransom%20Riggs.epub" },
+	{ genes: "Viễn Tưởng", name: "Ma Thần Hoàng Thiên - Đình Kiên", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/ma-than-hoang-thien-dinh-kien.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Ma%20Th%E1%BA%A7n%20Ho%C3%A0ng%20Thi%C3%AAn%20-%20%C4%90%C3%ACnh%20Ki%C3%AAn.epub" },
+	{ genes: "Viễn Tưởng", name: "Colorful – Mori Eto", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/35415133823_aea74f2817_o.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Colorful%20%E2%80%93%20Mori%20Eto.epub" },
+	{ genes: "Viễn Tưởng", name: "Tôi Là Số 4 - Hồ Sơ Thất Lạc Tập 4: Hành Trình Tìm Kiếm Sam - Pittacus Lore", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/36029470272_831819728b_o.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/T%C3%B4i%20L%C3%A0%20S%E1%BB%91%204%20-%20H%E1%BB%93%20S%C6%A1%20Th%E1%BA%A5t%20L%E1%BA%A1c%204%20H%C3%A0nh%20Tr%C3%ACnh%20T%C3%ACm%20Ki%E1%BA%BFm%20Sam%20-%20Pittacus%20Lore.epub" },
+	{ genes: "Viễn Tưởng", name: "Sự Cố Bắc Cực – Eoin Colfer", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/su-co-bac-cuc-eoin-colfer.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/S%E1%BB%B1%20C%E1%BB%91%20B%E1%BA%AFc%20C%E1%BB%B1c%20%E2%80%93%20Eoin%20Colfer.epub" },
+	{ genes: "Viễn Tưởng", name: "Tôi Là Số 4 - Hồ Sơ Thất Lạc Tập 5: Những Ngày Cuối của Lorien - Pittacus Lore", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/35511004904_0ebe653600_o.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/T%C3%B4i%20L%C3%A0%20S%E1%BB%91%204%20-%20H%E1%BB%93%20S%C6%A1%20Th%E1%BA%A5t%20L%E1%BA%A1c%205%20Nh%E1%BB%AFng%20Ng%C3%A0y%20Cu%E1%BB%91i%20c%E1%BB%A7a%20Lorien%20-%20Pittacus%20Lore.epub" },
+	{ genes: "Viễn Tưởng", name: "Phụ Lục Percy Jackson: Cẩm Nang Thần Thánh - Mary-Jane Knight", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/36389371916_f185253a4c_o.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Ph%E1%BB%A5%20L%E1%BB%A5c%20Percy%20Jackson%20C%E1%BA%A9m%20Nang%20Th%E1%BA%A7n%20Th%C3%A1nh%20-%20Mary-Jane%20Knight.epub" },
+	{ genes: "Viễn Tưởng", name: "Đêm Khoái Lạc – Sherrilyn Kenyon", imageUrl: "https://ebookvie.com/wp-content/uploads/2023/12/36139991046_350ff7493a_o.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/%C4%90%C3%AAm%20Kho%C3%A1i%20L%E1%BA%A1c%20%E2%80%93%20Sherrilyn%20Kenyon.epub" },
+	{ genes: "Phiêu Lưu, Kinh Dị", name: "Ngôi Nhà Kỳ Quái - Uketsu", imageUrl: "https://ebookvie.com/wp-content/uploads/2024/03/Ngoi-Nha-Ky-Quai-ebookvie.jpg", linkUrl: "https://archive.org/download/ebook-vien-tuong/Ng%C3%B4i%20Nh%C3%A0%20K%E1%BB%B3%20Qu%C3%A1i%20-%20Uketsu.epub" }
   ];
 
- let selectedGene = "all"; // "all" nghĩa là không lọc theo thể loại
+   // Các biến lọc
+  let selectedGene = "all";      // "all" nghĩa là không lọc theo thể loại
+  let selectedStatus = "all";    // "all" nghĩa là không lọc theo trạng thái; "updating" để chỉ lấy các sách có linkUrl === "#"
 
   // Tạo các button lọc theo thể loại (genes)
   function generateGeneButtons() {
@@ -127,28 +137,67 @@ const ImageList = (function() {
     // Thêm "all" làm tùy chọn mặc định
     genes.unshift("all");
 
-    // Tạo các button vào container .genes-container
     const container = document.querySelector(".genes-container");
     container.innerHTML = "";
+    // Tạo button lọc theo thể loại
     genes.forEach(gene => {
       const button = document.createElement("button");
       button.textContent = gene === "all" ? "Tất Cả" : gene;
       button.dataset.gene = gene;
+      // Nếu đang được chọn (active) thì thêm class active
       if (gene === selectedGene) {
         button.classList.add("active");
       }
       button.addEventListener("click", function() {
         selectedGene = this.dataset.gene;
-        // Cập nhật trạng thái active của các button
-        document.querySelectorAll(".genes-container button").forEach(btn => btn.classList.remove("active"));
+        // Nếu chọn lọc theo thể loại, reset trạng thái lọc về "all"
+        selectedStatus = "all";
+        // Cập nhật trạng thái active cho các button trong container
+        document.querySelectorAll(".genes-container button").forEach(btn => {
+          // Loại bỏ active của tất cả các button có dataset.gene (và của button trạng thái nếu có)
+          if(btn.dataset.gene) {
+            btn.classList.remove("active");
+          }
+        });
         this.classList.add("active");
+        // Cũng cập nhật trạng thái active cho button lọc theo trạng thái nếu có (bỏ active nếu có)
+        const statusBtn = document.querySelector(".genes-container button[data-status='updating']");
+        if(statusBtn) statusBtn.classList.remove("active");
         applyFilters();
       });
       container.appendChild(button);
     });
   }
 
-  // Hàm áp dụng bộ lọc: kết hợp tìm kiếm theo tên và lọc theo thể loại (genes)
+  // Tạo thêm 1 button để lọc theo trạng thái "Đang cập nhật"
+  function generateStatusButton() {
+    const container = document.querySelector(".genes-container");
+    const button = document.createElement("button");
+    button.textContent = "Đang cập nhật";
+    button.dataset.status = "updating";
+    // Nếu trạng thái lọc hiện tại là "updating" thì thêm class active
+    if (selectedStatus === "updating") {
+      button.classList.add("active");
+    }
+    button.addEventListener("click", function() {
+      // Nếu chưa ở trạng thái "updating", set về "updating"; nếu đã, reset về "all"
+      if (selectedStatus !== "updating") {
+        selectedStatus = "updating";
+        this.classList.add("active");
+      } else {
+        selectedStatus = "all";
+        this.classList.remove("active");
+      }
+      // Khi lọc theo trạng thái, reset bộ lọc theo thể loại về "all"
+      selectedGene = "all";
+      // Cập nhật active cho các button có dataset.gene
+      document.querySelectorAll(".genes-container button[data-gene]").forEach(btn => btn.classList.remove("active"));
+      applyFilters();
+    });
+    container.appendChild(button);
+  }
+
+  // Hàm áp dụng bộ lọc: kết hợp tìm kiếm theo tên, lọc theo thể loại (genes) và trạng thái
   function applyFilters() {
     const searchInput = document.getElementById("searchInput");
     const query = searchInput ? searchInput.value.toLowerCase() : "";
@@ -161,6 +210,11 @@ const ImageList = (function() {
         const geneArr = image.genes.split(",").map(g => g.trim().toLowerCase());
         return geneArr.includes(selectedGene.toLowerCase());
       });
+    }
+    if (selectedStatus !== "all") {
+      if (selectedStatus === "updating") {
+        filtered = filtered.filter(image => image.linkUrl === "#");
+      }
     }
     displayImages(sortImagesByName(filtered));
   }
@@ -196,9 +250,10 @@ const ImageList = (function() {
     return arr.sort((a, b) => a.name.localeCompare(b.name));
   }
 
-  // Khởi tạo: tạo các button lọc theo thể loại, thiết lập sự kiện cho tìm kiếm và hiển thị danh sách ban đầu
+  // Khởi tạo: tạo các button lọc, thiết lập sự kiện cho tìm kiếm và hiển thị danh sách ban đầu
   function init() {
     generateGeneButtons();
+    generateStatusButton();
     applyFilters();
     const searchInput = document.getElementById("searchInput");
     if (searchInput) {
